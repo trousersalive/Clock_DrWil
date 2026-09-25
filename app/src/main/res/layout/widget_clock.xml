@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@android:color/transparent" android:padding="2dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center">
+        <TextView android:id="@+id/time0" style="@style/ClockSans" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="12:34" android:textSize="30sp" />
+        <TextView android:id="@+id/time1" style="@style/ClockSerif" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="12:34" android:textSize="30sp" android:visibility="gone" />
+        <TextView android:id="@+id/time2" style="@style/ClockMono" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="12:34" android:textSize="30sp" android:visibility="gone" />
+        <TextView android:id="@+id/time3" style="@style/ClockCondensed" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="12:34" android:textSize="30sp" android:visibility="gone" />
+        <TextView android:id="@+id/time4" style="@style/ClockLight" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:text="12:34" android:textSize="30sp" android:visibility="gone" />
+        <TextView android:id="@+id/date0" style="@style/DateSans" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Friday 25 September" android:textSize="11sp" />
+        <TextView android:id="@+id/date1" style="@style/DateSerif" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Friday 25 September" android:textSize="11sp" android:visibility="gone" />
+        <TextView android:id="@+id/date2" style="@style/DateMono" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Friday 25 September" android:textSize="11sp" android:visibility="gone" />
+        <TextView android:id="@+id/date3" style="@style/DateCondensed" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Friday 25 September" android:textSize="11sp" android:visibility="gone" />
+        <TextView android:id="@+id/date4" style="@style/DateLight" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Friday 25 September" android:textSize="11sp" android:visibility="gone" />
+    </LinearLayout>
+</FrameLayout>
